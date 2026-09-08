@@ -19,4 +19,5 @@ exit 1;
 fi
 done&
 
+# To stop process:  
 # echo "0" > p.sh.lock;
