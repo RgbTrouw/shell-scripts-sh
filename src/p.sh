@@ -6,7 +6,7 @@ echo "1" > $0.lock;
 while true;
 lock=$(head -c 1 $0.lock;
 
-if(($lock == 1));
+if(($lock == 1))
 then
 
 echo "working...";
