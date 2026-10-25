@@ -1,6 +1,7 @@
 # Copyright 2026 RgbTrust
 # ./open-cdRom.sh - Mouse Button Script for Console
 # Press button to open Cd-Rom
+# (Change Mouse Name and Screen Resolution)
 
 printf '\033[?25l'          # Hide cursor
 trap 'printf "\033[?25h"' EXIT  # Restore cursor on exit
